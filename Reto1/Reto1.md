@@ -22,6 +22,6 @@ Ejemplo sin return:
     }
 
 
-### ¿Hasta cuantos argumentospuedes declarar en una función? ###
-- Esto depende de cada navegador
-- Se recomienda no exceder 
+### ¿Hasta cuantos argumentos puedes declarar en una función? ###
+- Esto depende del motor de cada navegador
+- Obviamente por temas de buenas practicas se recomienda no tener un número alto de argumentos para que la función sea legible.
