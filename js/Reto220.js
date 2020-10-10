@@ -1,17 +1,17 @@
-function vreplace(texto, vocal) {
+String.vreplace(vocal) {
     
-    texto = texto.replace("a", vocal);
-    texto = texto.replace("A", vocal);
-    texto = texto.replace("e", vocal);
-    texto = texto.replace("E", vocal);
-    texto = texto.replace("i", vocal);
-    texto = texto.replace("I", vocal);
-    texto = texto.replace("o", vocal);
-    texto = texto.replace("O", vocal);
-    texto = texto.replace("u", vocal);
-    texto = texto.replace("U", vocal);
+    this = this.replace("a", vocal);
+    this = this.replace("A", vocal);
+    this = this.replace("e", vocal);
+    this = this.replace("E", vocal);
+    this = this.replace("i", vocal);
+    this = this.replace("I", vocal);
+    this = this.replace("o", vocal);
+    this = this.replace("O", vocal);
+    this = this.replace("u", vocal);
+    this = this.replace("U", vocal);
 
-    return texto;
+    return this;
 }
 
-console.log(vreplace(13,5));
+console.log("apples and bananas".vreplace("a"));
